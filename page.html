@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Newsletter Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+<!-- BEGIN navigation -->
+<div id="navigation">
+  <div class="wrapper">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+    <form action="#">
+      <button type="submit">Search</button>
+      <input type="text" name="s" id="s" />
+    </form>
+  </div>
+</div>
+<!-- END navigation -->
+<!-- BEGIN wrapper -->
+<div class="wrapper">
+  <!-- BEGIN header -->
+  <div id="header">
+    <h1><a href="#">NewsLetter</a></h1>
+  </div>
+  <!-- END header -->
+  <!-- BEGIN body -->
+  <div id="body">
+    <!-- BEGIN content -->
+    <div id="content">
+      <!-- begin post -->
+      <div class="recent post">
+     
+        <div id="News1">
+          <h2>News 1</h2>
+          <p>Ristiedonec nisl tellus pellus vel lobortor cursus quis semper sapibus curabitudin. Massacondimentum amet intesque ullamcorper facilis congue dolor amet ligula justo non.</p>
+          <p><img class="alignright" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4DK_0KiGQ4dattun2hdBQtGkwvLZu9PuPDQZlTJCW9A5Qr8V_QfsDLcEc-CycZdI7AHE&usqp=CAU" width="200" height="150" alt="" /></p>
+          <p>Consequeet tor massa et tellentesque nasce et laorem mauristiquam mus sed. Odiopartur quisque nisl pellus dictus auctor ant quis odio nam sed.</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, <a href="#">convallis quis</a>, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat.</p>
+          <p>Aliquatpretium antesque accumst euismod nunc vitae cras interdum sed donec ipsum. Integetnunc cumst vel gravida sit accumst lobortor congue accumst estas et. Laciliswisi cursus sed sociis curabitur intesque orci phasellus purus estibulum sagittis. Nuncut congue consequat ligula consecteturpis et ipsum sed id id augue. Curabitaesit orci laoreet libero vestas sit faucibus iacus curabitudin vestas tellus.</p>
+          <p><cite><a href="#">Quote Source</a></cite></p>
+          <p>Inquisquet urna proin vel volutpat velit tellus vivamus nas nam ac. Atauctortor ligula nulla volutpat laorem a sed curabitur et congue enim. Faciniacurabitudin estibulum montesque consequam sent phasellentesque feugiat tristibulum et curabitur aliquat. Vestpartur ligula urna eu curabitae egestassa nibh elit.</p>
+        </div>
+        <br>
+     
+        <button onClick="Del_News()">
+            Delete News 1
+        </button>
+
+        <script>
+  
+            let div = document.getElementById('News1');
+            up.innerHTML = "Click on button to remove the element.";
+     
+            function Del_News() {
+                div.parentNode.removeChild(div);
+                down.innerHTML = "Element is removed.";
+            }
+        </script>
+   <br><br>
+   <hr>
+
+          <div id="News2">
+            <h2>News 2</h2>
+            <p>Ristiedonec nisl tellus pellus vel lobortor cursus quis semper sapibus curabitudin. Massacondimentum amet intesque ullamcorper facilis congue dolor amet ligula justo non.</p>
+            <p><img class="alignright" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTFrhr_-pYR74jUgOy7IerAoHAX3zPIZZcg&s" width="200" height="150" alt="" /></p>
+            <p>Consequeet tor massa et tellentesque nasce et laorem mauristiquam mus sed. Odiopartur quisque nisl pellus dictus auctor ant quis odio nam sed.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, <a href="#">convallis quis</a>, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat.</p>
+            <p>Aliquatpretium antesque accumst euismod nunc vitae cras interdum sed donec ipsum. Integetnunc cumst vel gravida sit accumst lobortor congue accumst estas et. Laciliswisi cursus sed sociis curabitur intesque orci phasellus purus estibulum sagittis. Nuncut congue consequat ligula consecteturpis et ipsum sed id id augue. Curabitaesit orci laoreet libero vestas sit faucibus iacus curabitudin vestas tellus.</p>
+            <p><cite><a href="#">Quote Source</a></cite></p>
+            <p>Inquisquet urna proin vel volutpat velit tellus vivamus nas nam ac. Atauctortor ligula nulla volutpat laorem a sed curabitur et congue enim. Faciniacurabitudin estibulum montesque consequam sent phasellentesque feugiat tristibulum et curabitur aliquat. Vestpartur ligula urna eu curabitae egestassa nibh elit.</p>
+          </div>
+          <br>
+          
+       
+          <button onClick="Del_News()">
+              Delete News 2
+          </button>
+
+          <script>
+    
+              let div = document.getElementById('News2');
+              up.innerHTML = "Click on button to remove the element.";
+       
+              function Del_News() {
+                  div.parentNode.removeChild(div);
+                  down.innerHTML = "Element is removed.";
+              }
+          </script>
+
+<br><br> 
+<hr>
+
+<div id="News3">
+  <h2>News 3</h2>
+  <p>Ristiedonec nisl tellus pellus vel lobortor cursus quis semper sapibus curabitudin. Massacondimentum amet intesque ullamcorper facilis congue dolor amet ligula justo non.</p>
+  <p><img class="alignright" src="https://www.adobe.com/acrobat/hub/media_173d13651460eb7e12c0ef4cf8410e0960a20f0ee.jpeg?width=750&format=jpeg&optimize=medium" width="200" height="150" alt="" /></p>
+  <p>Consequeet tor massa et tellentesque nasce et laorem mauristiquam mus sed. Odiopartur quisque nisl pellus dictus auctor ant quis odio nam sed.</p>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, <a href="#">convallis quis</a>, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat.</p>
+  <p>Aliquatpretium antesque accumst euismod nunc vitae cras interdum sed donec ipsum. Integetnunc cumst vel gravida sit accumst lobortor congue accumst estas et. Laciliswisi cursus sed sociis curabitur intesque orci phasellus purus estibulum sagittis. Nuncut congue consequat ligula consecteturpis et ipsum sed id id augue. Curabitaesit orci laoreet libero vestas sit faucibus iacus curabitudin vestas tellus.</p>
+  <p><cite><a href="#">Quote Source</a></cite></p>
+  <p>Inquisquet urna proin vel volutpat velit tellus vivamus nas nam ac. Atauctortor ligula nulla volutpat laorem a sed curabitur et congue enim. Faciniacurabitudin estibulum montesque consequam sent phasellentesque feugiat tristibulum et curabitur aliquat. Vestpartur ligula urna eu curabitae egestassa nibh elit.</p>
+</div>
+<br>
+
+<button onClick="Del_News()">
+    Delete News 3
+</button>
+
+<script>
+
+    let div = document.getElementById('News3');
+    up.innerHTML = "Click on button to remove the element.";
+
+    function Del_News() {
+        div.parentNode.removeChild(div);
+        down.innerHTML = "Element is removed.";
+    }
+</script>
+      <!-- end post -->
+    </div>
+    <!-- END content -->
+   
+    <div id="sidebar">
+
+<div id="footer">
+  <div class="wrapper">
+    <p class="l">Swiss Link Communication SB</p>
+  </div>
+</div>
+
+</body>
+</html>
